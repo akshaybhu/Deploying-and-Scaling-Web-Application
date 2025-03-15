@@ -1,0 +1,14 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: mern-microservices-cluster
+  region: us-east-1
+
+nodeGroups:
+  - name: mern-microservices-nodes
+    instanceType: t3.medium
+    desiredCapacity: 2
+    ssh:
+      allow: true
+      publicKeyName: skJenkins
