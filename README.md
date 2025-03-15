@@ -128,21 +128,4 @@ Step 13: Final Checks
 
    - Ensure that the MERN application is accessible and functions correctly.
 
-BONUS: ChatOps
 
-Step 14: ChatOps Integration
-
-Create SNS Topics:
-
-
-Use Boto3 to create SNS topics for different events (e.g., deployment success, failure).
-
-Create Lambda for ChatOps:
-
-Write a Lambda function that sends notifications to the appropriate SNS topics based on deployment events.
-
-Integrate ChatOps with Messaging Platform:
-
-Configure integrations with a messaging platform (e.g., Slack/MS Teams/ Telegram) to receive notifications from SNS.
-
-Configure SES
